@@ -9,6 +9,7 @@ chmod +x ./configure
 
 ./configure
 
+make clean
 make 
 
 # make check
