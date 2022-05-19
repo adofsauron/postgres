@@ -11,10 +11,10 @@ chmod +x ./configure
 
 make 
 
-make check
+# make check
 
 make install
 
-make clean
+# make clean
 
 cd $HERE
