@@ -5,6 +5,7 @@ HERE=`pwd`
 # adduser kevin
 # su kevin
 
+export PGDATA=/home/kevin/postgres/data
 pg_ctl  stop
 
 sleep 3s
