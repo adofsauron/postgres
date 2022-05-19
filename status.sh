@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ps -aux | grep postgres: | grep -v grep
+ps -aux | grep postgres | grep -v grep | grep -v psql
