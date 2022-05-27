@@ -10,7 +10,7 @@ chmod +x ./configure
 ./configure
 
 make clean
-make 
+make -j"$(nproc)"
 
 # make check
 
