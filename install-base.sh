@@ -1,9 +1,7 @@
 #!/bin/bash
 
 yum install -y make cmake gcc gcc-c++ 
-
 yum install -y readline-devel
-
 yum install -y bison flex zlib zlib-devel
 
 # sudo apt install -y libreadline-dev
