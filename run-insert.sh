@@ -1,13 +1,5 @@
 #!/bin/bash
 
-psql -U kevin -d test -h localhost -p 5432 -c "select oid,* from pg_database;"
-
-echo -e "\n"
- 
-psql -U kevin -d test -h localhost -p 5432 -c "select relname,oid from pg_class where relname in ('company');"
-
-echo -e "\n"
-
 psql -U kevin -d test -h localhost -p 5432 -c "select count(1) from company;"
 
 for ((i=1; i<=1000; i++))
