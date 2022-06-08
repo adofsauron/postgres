@@ -29,6 +29,7 @@
  * Object ID is a fundamental type in Postgres.
  */
 typedef unsigned int Oid;
+typedef long long int PG_INT64_TYPE;
 
 #ifdef __cplusplus
 #define InvalidOid		(Oid(0))
