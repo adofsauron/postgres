@@ -10,6 +10,7 @@ chmod +x ./configure
 dos2unix ./config/*
 dos2unix ./src/template/*
 dos2unix ./src/backend/utils/*
+dos2unix ./src/backend/storage/lmgr/*
 
 ./configure
 
