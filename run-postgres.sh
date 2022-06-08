@@ -5,6 +5,8 @@ HERE=`pwd`
 # adduser kevin
 # su kevin
 
+chown -R kevin:kevin /var/run/postgresql
+
 export PGDATA=/home/kevin/postgres/data
 pg_ctl  stop
 

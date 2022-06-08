@@ -2,6 +2,8 @@
 
 HERE=`pwd`
 
+cd trunk
+
 cd postgres-REL_14_3
 
 dos2unix ./configure
