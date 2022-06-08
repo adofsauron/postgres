@@ -8,8 +8,8 @@ dos2unix ./configure
 chmod +x ./configure
 
 dos2unix ./config/*
-dos2unix  ./src/template//*
-
+dos2unix ./src/template/*
+dos2unix ./src/backend/utils/*
 
 ./configure
 
