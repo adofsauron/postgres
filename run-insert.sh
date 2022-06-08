@@ -17,6 +17,8 @@ echo -e "\n"
 
 psql -U kevin -d test -h localhost -p 5432 -c "select count(1) from company;"
 
+echo -e "\n"
+
 for ((i=1; i<=100000; i++))
 do
 
@@ -25,5 +27,7 @@ do
     echo psql -U kevin -d test -h localhost -p 5432 -c "$SQL"
     psql -U kevin -d test -h localhost -p 5432 -c "$SQL"
 done
+
+echo -e "\n"
 
 psql -U kevin -d test -h localhost -p 5432 -c "select count(1) from company;"
