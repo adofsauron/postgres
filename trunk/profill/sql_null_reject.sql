@@ -16,6 +16,6 @@ insert into t2(a,b) values(3,1);
 insert into t2(a,b) values(7,2);
 
 
-explain analyze verbose    
+EXPLAIN ANALYZE VERBOSE    
 SELECT * FROM  t1 LEFT JOIN t2 ON t2.a = t1.a WHERE t2.b < 5;
 
