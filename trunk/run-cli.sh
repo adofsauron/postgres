@@ -2,7 +2,6 @@
 
 HERE=`pwd`
 
-
 su kevin
 
 psql -s postgres
