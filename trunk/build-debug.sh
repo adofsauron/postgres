@@ -2,7 +2,6 @@
 
 HERE=`pwd`
 
-cd trunk
 
 cd postgres-REL_14_3
 
@@ -14,7 +13,7 @@ dos2unix ./src/template/*
 dos2unix ./src/backend/utils/*
 dos2unix ./src/backend/storage/lmgr/*
 
-./configure
+./configure --enable-debug --enable-profiling 
 
 make clean
 make -j"$(nproc)"
