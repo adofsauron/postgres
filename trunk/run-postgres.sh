@@ -2,8 +2,6 @@
 
 HERE=`pwd`
 
-chown -R kevin:kevin  .
-
 su kevin
 
 export PGDATA=/home/kevin/postgres/data
