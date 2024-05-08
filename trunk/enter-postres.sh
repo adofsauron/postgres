@@ -2,8 +2,8 @@
 
 HERE=`pwd`
 
-# adduser kevin
-# su kevin
+
+su kevin
 
 psql -s postgres
 
